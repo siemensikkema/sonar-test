@@ -1,6 +1,9 @@
 public struct sonar_test {
-    public private(set) var text = "Hello, World!"
+    public func getText() {
+        "Hello, World!"
+    }
 
+    /// Create new `sonar_test`.
     public init() {
     }
 }

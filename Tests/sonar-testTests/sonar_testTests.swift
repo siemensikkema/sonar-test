@@ -6,6 +6,6 @@ final class sonar_testTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(sonar_test().text, "Hello, World!")
+        XCTAssertEqual(sonar_test().getText(), "Hello, World!")
     }
 }
