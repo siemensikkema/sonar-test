@@ -1,5 +1,5 @@
 public struct SonarTest {
-    public func getText() {
+    public func getText() -> String {
         "Hello, World!"
     }
 

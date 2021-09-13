@@ -1,3 +1,3 @@
 import SonarTest
 
-print(SonarTest().text)
+print(SonarTest().getText())
