@@ -8,6 +8,8 @@ on:
 jobs:
   sonarcloud:
     name: SonarCloud
+    container: 
+      image: swift:5.4-focal
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
