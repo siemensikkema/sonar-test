@@ -1,3 +1,3 @@
-import sonar_test
+import SonarTest
 
-print(sonar_test().text)
+print(SonarTest().text)
