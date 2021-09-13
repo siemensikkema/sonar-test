@@ -18,7 +18,7 @@ jobs:
       - name: Test
         run: swift test --sanitize=thread --enable-code-coverage
       - name: Generate code coverage report
-        run: llvm-cov export -format=lcov --instr-profile=.build/debug/codecov/default.profdata .build/debug/sonar-test > coverage.report
+        run: llvm-cov export -format=lcov --instr-profile=.build/debug/codecov/default.profdata .build/debug/Run > coverage.report
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
