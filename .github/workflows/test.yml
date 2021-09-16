@@ -17,8 +17,8 @@ jobs:
           fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
       - name: Test
         run: swift test --sanitize=thread --enable-code-coverage
-      - name: Generate code coverage report
-        run: llvm-cov show --instr-profile=.build/debug/codecov/default.profdata .build/debug/Run > coverage.report
+      # - name: Generate code coverage report
+      #   run: llvm-cov show --instr-profile=.build/debug/codecov/default.profdata .build/debug/Run > coverage.report
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
