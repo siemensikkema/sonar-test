@@ -1,9 +1,9 @@
-Sources/Run/main.swift:
+Run/main.swift:
     1|       |import SonarTest
     2|       |
     3|      0|print(SonarTest().getText())
 
-Sources/SonarTest/SonarTest.swift:
+SonarTest/SonarTest.swift:
     1|       |public struct SonarTest {
     2|      1|    public func getText() -> String {
     3|      1|        "Hello, World!"
