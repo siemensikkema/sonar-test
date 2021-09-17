@@ -1,6 +1,6 @@
 public struct SonarTest {
     public func getText() -> String {
-        "Hello, World!"
+        if true { return "Hello, World!" } else { return "Not covered" }
     }
 
     /// Create new `SonarTest`.
